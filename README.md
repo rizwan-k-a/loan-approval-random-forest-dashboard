@@ -2,7 +2,7 @@
 
 ## ✅ System Overview
 
-A complete Machine Learning pipeline for loan approval prediction with an interactive Streamlit dashboard featuring glassmorphism design with warm amber-orange gradient.
+A complete Machine Learning pipeline for loan approval prediction with an interactive Streamlit dashboard featuring glassmorphism design with clean white and light blue-grey gradient using Random Forest algorithm.
 
 ---
 
@@ -37,9 +37,7 @@ python -c "import streamlit; import pandas; import numpy; import sklearn; print(
 
 ### Core Scripts
 - **`loan_rf.py`** - Complete ML pipeline with EDA, training, and evaluation
-- **`streamlit_app_v3.py`** - Main interactive dashboard (CURRENT - Warm Glassmorphism Design)
-- **`streamlit_app_v2.py`** - Alternative: Purple gradient version
-- **`streamlit_app.py`** - Original version
+- **`streamlit_app.py`** - Main interactive dashboard with white glassmorphism design
 
 ### Data
 - **`loan_approval_dataset.csv`** - Dataset with 4,269 records and 13 features
@@ -67,7 +65,7 @@ python loan_rf.py
 
 ### Option 2: Run the Interactive Dashboard (RECOMMENDED)
 ```bash
-streamlit run streamlit_app_v3.py
+streamlit run streamlit_app.py
 ```
 
 **Access at:** `http://localhost:8501`
@@ -76,12 +74,13 @@ streamlit run streamlit_app_v3.py
 
 ## 🎨 Dashboard Design Features
 
-### Styling: Warm Amber-Orange Glassmorphism
-- **Gradient**: `linear-gradient(180deg, #b86a1f 0%, #e8892f 50%, #ffbe6a 100%)`
-- **Glass Effect**: `backdrop-filter: blur(15px)`
-- **Color Scheme**: Warm amber with white translucent panels
+### Styling: White & Light Blue Glassmorphism
+- **Gradient**: `linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%)`
+- **Glass Effect**: `backdrop-filter: blur(16px)`
+- **Color Scheme**: Clean white and light blue-grey with translucent panels
 - **Rounded Corners**: Smooth 28px border-radius
 - **Soft Shadows**: Enhanced depth with inset highlights
+- **Button Style**: White background with dark text and bold font (weight: 900)
 
 ### Navigation Pages
 1. **🏠 Dashboard** - Performance overview, first look at data, top features
@@ -131,7 +130,7 @@ pip install --upgrade pandas numpy matplotlib seaborn scikit-learn streamlit
 ### Issue: Streamlit Port Already in Use
 **Solution:**
 ```bash
-streamlit run streamlit_app_v3.py --server.port 8502
+streamlit run streamlit_app.py --server.port 8502
 ```
 
 ### Issue: Data File Not Found
@@ -219,11 +218,12 @@ streamlit run streamlit_app_v3.py --server.port 8502
 ## ✨ Design Highlights
 
 ✅ **Glassmorphism**: Frosted glass effect with blur
-✅ **Warm Palette**: Amber-orange gradient (passion/warmth theme)
+✅ **Cool Palette**: White and light blue-grey gradient (professional/clean theme)
 ✅ **One Output at a Time**: Clean, uncluttered interface
 ✅ **White Translucent Panels**: Modern mobile app aesthetics
 ✅ **Soft Shadows & Highlights**: Depth and dimension
 ✅ **Smooth Interactions**: Hover effects, transitions
+✅ **Bold Buttons**: Enhanced visibility with bold text (font-weight: 900)
 ✅ **Responsive Layout**: Works on desktop and mobile
 
 ---
@@ -262,7 +262,7 @@ Recommendation: Excellent application
 
 ## 🎯 Next Steps
 
-1. ✅ Run the dashboard: `streamlit run streamlit_app_v3.py`
+1. ✅ Run the dashboard: `streamlit run streamlit_app.py`
 2. ✅ Navigate through all 5 pages
 3. ✅ Try the prediction feature
 4. ✅ Analyze the EDA visualizations
@@ -290,9 +290,10 @@ Recommendation: Excellent application
 - **96% Recall** for rejected loans
 - **CIBIL Score** identified as key predictor
 - **Clean, production-ready code**
-- **Beautiful, modern UI** with glassmorphism
+- **Beautiful, modern UI** with white glassmorphism design
 
 ---
 
 *Last Updated: February 10, 2026*
-*Version: 3.0 - Warm Glassmorphism Design*
+*Version: 4.0 - White & Light Blue Glassmorphism Design*
+*Tagline: Loan Approval Prediction System using Random Forest*
