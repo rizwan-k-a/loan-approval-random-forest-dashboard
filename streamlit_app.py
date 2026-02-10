@@ -103,7 +103,7 @@ p, span, .stMarkdown {
     border: 2px solid #d5dce5 !important;
     border-radius: 12px !important;
     padding: 1rem 2.5rem !important;
-    font-weight: 700 !important;
+    font-weight: 900 !important;
     font-size: 1.15rem !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
     transition: all 0.3s ease !important;
@@ -323,7 +323,7 @@ st.sidebar.metric("Records", f"{len(df):,}")
 # ---------- PAGE 1: DASHBOARD ----------
 if page == "Dashboard":
     st.title("Loan Approval Predictor")
-    st.markdown("**AI-Powered Loan Approval System with Glassmorphism Design**")
+    st.markdown("**Loan Approval Prediction System using Random Forest**")
     st.markdown("---")
     
     # Key Metrics - One at a time style
